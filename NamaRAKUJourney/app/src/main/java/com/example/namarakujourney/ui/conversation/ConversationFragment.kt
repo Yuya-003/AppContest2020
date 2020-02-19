@@ -1,4 +1,4 @@
-package com.example.namarakujourney.ui.share
+package com.example.namarakujourney.ui.conversation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.namarakujourney.R
 
-class ShareFragment : Fragment() {
+class ConversationFragment : Fragment() {
 
-    private lateinit var shareViewModel: ShareViewModel
+    private lateinit var conversationViewModel: ConversationViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        shareViewModel =
-            ViewModelProviders.of(this).get(ShareViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_share, container, false)
-        val textView: TextView = root.findViewById(R.id.text_share)
-        shareViewModel.text.observe(this, Observer {
+        conversationViewModel =
+            ViewModelProviders.of(this).get(ConversationViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_conversation, container, false)
+        val textView: TextView = root.findViewById(R.id.text_gallery)
+        conversationViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root

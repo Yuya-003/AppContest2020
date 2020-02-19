@@ -1,4 +1,4 @@
-package com.example.namarakujourney.ui.gallery
+package com.example.namarakujourney.ui.spot_search
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.namarakujourney.R
 
-class GalleryFragment : Fragment() {
+class SpotSearchFragment : Fragment() {
 
-    private lateinit var galleryViewModel: GalleryViewModel
+    private lateinit var spotSearchViewModel: SpotSearchViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        galleryViewModel =
-            ViewModelProviders.of(this).get(GalleryViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_gallery, container, false)
-        val textView: TextView = root.findViewById(R.id.text_gallery)
-        galleryViewModel.text.observe(this, Observer {
+        spotSearchViewModel =
+            ViewModelProviders.of(this).get(SpotSearchViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_spot_search, container, false)
+        val textView: TextView = root.findViewById(R.id.text_share)
+        spotSearchViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root
