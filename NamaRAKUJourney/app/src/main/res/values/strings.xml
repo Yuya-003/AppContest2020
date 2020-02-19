@@ -1,5 +1,5 @@
 <resources>
-    // 初期
+    <!--初期-->
     <string name="app_name">NamaRAKUJourney</string>
     <string name="app_name_jp">なまくらジャーニー</string>
     <string name="title_activity_main">MainActivity</string>
@@ -10,19 +10,21 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    //ボタン名称
+    <!--ボタン名称-->
     <string name="main_button_spotsearch">スポット検索</string>
     <string name="main_button_conv_assist">会話補助</string>
     <string name="main_button_calculator">会計機能</string>
     <string name="main_button_other">その他</string>
     <string name="main_button_language">LANGUAGE</string>
 
-
-
+<!--
     <string name="menu_home">Home</string>
     <string name="menu_conversation">Conversation</string>
     <string name="menu_calculator">Calculator</string>
-    <string name="menu_tools">Tools</string>
     <string name="menu_spot_search">SpotSearch</string>
-    <string name="menu_send">Send</string>
+-->
+    <string name="menu_home">ホーム</string>
+    <string name="menu_conversation">会話補助</string>
+    <string name="menu_calculator">会計機能</string>
+    <string name="menu_spot_search">スポット検索</string>
 </resources>
