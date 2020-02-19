@@ -21,11 +21,6 @@ class CalculatorFragment : Fragment() {
     ): View? {
         calculatorViewModel =
             ViewModelProviders.of(this).get(CalculatorViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_calculator, container, false)
-        val textView: TextView = root.findViewById(R.id.text_slideshow)
-        calculatorViewModel.text.observe(this, Observer {
-            textView.text = it
-        })
-        return root
+        return inflater.inflate(R.layout.fragment_calculator, container, false)
     }
 }
