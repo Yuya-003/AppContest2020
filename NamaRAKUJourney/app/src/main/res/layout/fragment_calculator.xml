@@ -32,12 +32,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/amountInput"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
+            android:background="#B2FFFFFF"
             android:ems="10"
             android:inputType="number"
             android:textSize="50sp"
@@ -54,12 +55,13 @@
             android:layout_marginEnd="20dp"
             android:text="yen  円"
             android:textSize="50sp"
-            app:layout_constraintBottom_toBottomOf="@+id/editText"
+            app:layout_constraintBottom_toBottomOf="@+id/amountInput"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/editText" />
+            app:layout_constraintStart_toEndOf="@+id/amountInput" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/moneyList"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"
