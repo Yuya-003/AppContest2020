@@ -12,4 +12,6 @@
     <dimen name="conv_button_space">50dp</dimen>
     <dimen name="coin_size">130dp</dimen>
     <dimen name="space_bottom_coin">20dp</dimen>
+    <dimen name="spot_button_space">50sp</dimen>
+
 </resources>

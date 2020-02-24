@@ -36,5 +36,23 @@
     <string name="content_of_kaiwa_syokuji2">What are the recomrnded dishes?\nおすすめの料理は何ですか？</string>
 
 
+    <string name="departure_time">出発日時</string>
+    <string name="departure_place">出発地点</string>
+    <string name="button_depa_date">日付</string>
+    <string name="button_depa_time">時刻</string>
+    <string name="button_manual_input">手動入力</string>
+    <string name="button_current_location">現在地</string>
+    <string name="button_airport">空港</string>
+    <string name="button_station">駅</string>
+
+    <string name="select_spot_genre">観光したいジャンルを選択してください</string>
+    <string name="hot_spot">話題の観光地</string>
+    <string name="button_food">食</string>
+    <string name="button_building">建築物</string>
+    <string name="button_landscape">風景</string>
+    <string name="button_sns">SNS映え</string>
+    <string name="button_pilg">聖地巡礼</string>
+    <string name="recommended_spot">おすすめの観光地</string>
+    <string name="button_ramen">札幌ら～めん共和国</string>
 
 </resources>

@@ -15,7 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SubActivity_kaiwa_"></activity>
+        <activity android:name=".SubActivity_spot_details"></activity>
+        <activity android:name=".SubActivity_spot_list" />
+        <activity android:name=".SubActivity_spot_genre" />
+        <activity android:name=".SubActivity_kaiwa_" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

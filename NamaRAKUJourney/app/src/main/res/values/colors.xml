@@ -7,4 +7,7 @@
 
     <color name="colorAmountBackground">#FFF4CF</color>
     <color name="colorMoneyBackground">#cdfad0</color>
+    <color name="colorDepartureTimeBackground">#93C6EB</color>
+    <color name="colorDeparturePlaceBackground">#FFE4BC</color>
+    <color name="colorSpotButton1">#E0A29A</color>
 </resources>
