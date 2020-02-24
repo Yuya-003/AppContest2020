@@ -54,5 +54,6 @@
     <string name="button_pilg">聖地巡礼</string>
     <string name="recommended_spot">おすすめの観光地</string>
     <string name="button_ramen">札幌ら～めん共和国</string>
+    <string name="title_activity_sub_spot_details">Map</string>
 
 </resources>
