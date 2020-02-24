@@ -2,9 +2,9 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#F8CECC</color>
     // addiction
 
-    <color name="colorAmountBackground">#fff4cf</color>
+    <color name="colorAmountBackground">#FFF4CF</color>
     <color name="colorMoneyBackground">#cdfad0</color>
 </resources>

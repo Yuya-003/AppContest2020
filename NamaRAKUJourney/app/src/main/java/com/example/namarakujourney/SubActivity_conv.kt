@@ -1,7 +1,9 @@
 package com.example.namarakujourney
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import kotlinx.android.synthetic.main.activity_sub_conv.*
 
@@ -29,7 +31,9 @@ class SubActivity_conv : AppCompatActivity() {
         }
 
         btnIntent_meal.setOnClickListener {
-
+            val intent = Intent(this@SubActivity_conv, SubActivity_kaiwa_::class.java)
+            // オブジェクトから画面を起動
+            startActivity(intent)
         }
 
         btnIntent_trans.setOnClickListener {
