@@ -9,4 +9,6 @@
 
     // 余白設定
     <dimen name="home_button_space">70dp</dimen>
+    <dimen name="coin_size">130dp</dimen>
+    <dimen name="space_bottom_coin">20dp</dimen>
 </resources>

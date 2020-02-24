@@ -12,16 +12,10 @@ class SubActivity_calc : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sub_calc)
 
-        var intPurchaseTotal: Int? = 0
-
         editYenInput.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-                print("入力前")
-                textViewTotal.setText("入力中してください")
             }
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                print("入力中")
-                textViewTotal.setText("入力中...")
             }
             override fun afterTextChanged(s: Editable?) {
                 print("入力後")
