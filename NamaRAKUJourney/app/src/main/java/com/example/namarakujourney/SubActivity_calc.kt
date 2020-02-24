@@ -1,10 +1,9 @@
-package com.example.appcontest_p
+package com.example.namarakujourney
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import com.example.namarakujourney.R
 import kotlinx.android.synthetic.main.activity_sub_calc.*
 
 class SubActivity_calc : AppCompatActivity() {
@@ -17,11 +16,15 @@ class SubActivity_calc : AppCompatActivity() {
 
         editYenInput.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+                print("入力前")
+                textViewTotal.setText("入力中してください")
             }
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                print("入力中")
+                textViewTotal.setText("入力中...")
             }
             override fun afterTextChanged(s: Editable?) {
-                //println("入力後")
+                print("入力後")
                 var pr_10000: Int = 0
                 var pr__5000: Int = 0
                 var pr__1000: Int = 0
@@ -33,7 +36,6 @@ class SubActivity_calc : AppCompatActivity() {
                 var pr_____1: Int = 0
 
                 print(s.toString())
-
                 if (editYenInput == null){
                     textViewTotal.setText("0")
                 } else {
