@@ -50,16 +50,15 @@ class SubActivity_calc : AppCompatActivity() {
                     if(money >= 1000){
                         pr__1000 = money/1000
                         money = money % (pr__1000*1000)
-                        if (pr__1000 > 5){
+                        if (pr__1000 >= 5){
                             pr__5000 = 1
                             pr__1000 = pr__1000 - 5
                         }
-
                     }
                     if(money >= 100){
                         pr___100 = money/100
                         money = money % (pr___100*100)
-                        if (pr___100 > 5){
+                        if (pr___100 >= 5){
                             pr___500 = 1
                             pr___100 = pr___100 - 5
                         }
@@ -67,14 +66,14 @@ class SubActivity_calc : AppCompatActivity() {
                     if(money >= 10 ){
                         pr____10 = money/10
                         money = money % (pr____10*10)
-                        if (pr____10 > 5){
+                        if (pr____10 >= 5){
                             pr____50 = 1
                             pr____10 = pr____10 - 5
                         }
                     }
                     if(money >= 1 ){
                         pr_____1 = money/1
-                        if (pr_____1 > 5){
+                        if (pr_____1 >= 5){
                             pr_____5 = 1
                             pr_____1 = pr_____1 - 5
                         }

@@ -43,94 +43,6 @@
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/ichiman"
-            android:textSize="50sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/sen"
-            android:textSize="50sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/gohyaku"
-            android:textSize="50sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/hyaku"
-            android:textSize="50sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/goju"
-            android:textSize="50sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/ju"
-            android:textSize="50sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/go"
-            android:textSize="50sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/gosen"
-            android:textSize="50sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-        <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -172,116 +84,133 @@
             app:layout_constraintTop_toBottomOf="@+id/editYenInput" />
 
         <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="30dp"
-            android:text="@string/ichi"
-            android:textSize="50sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView15" />
-
-        <TextView
             android:id="@+id/v10000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/enter"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/na"
             android:textSize="50sp"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
             app:layout_constraintTop_toBottomOf="@+id/textViewTotal" />
 
         <TextView
             android:id="@+id/v5000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/enter"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="52dp"
+            android:text="@string/na"
             android:textSize="50sp"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
             app:layout_constraintTop_toBottomOf="@+id/v10000" />
 
         <TextView
             android:id="@+id/v1000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/enter"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="72dp"
+            android:text="@string/na"
             android:textSize="50sp"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
             app:layout_constraintTop_toBottomOf="@+id/v5000" />
 
         <TextView
             android:id="@+id/v500"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/enter"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="68dp"
+            android:text="@string/na"
             android:textSize="50sp"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/v1000" />
 
         <TextView
             android:id="@+id/v100"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="168dp"
             android:layout_marginTop="20dp"
-            android:text="@string/enter"
+            android:text="@string/na"
             android:textSize="50sp"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/v500" />
 
         <TextView
             android:id="@+id/v50"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="168dp"
             android:layout_marginTop="20dp"
-            android:text="@string/enter"
+            android:text="@string/na"
             android:textSize="50sp"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/v100" />
 
         <TextView
             android:id="@+id/v10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/enter"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="78dp"
+            android:text="@string/na"
             android:textSize="50sp"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
-            app:layout_constraintTop_toBottomOf="@+id/v50" />
+            app:layout_constraintStart_toEndOf="@+id/v500"
+            app:layout_constraintTop_toBottomOf="@+id/v1000" />
 
         <TextView
             android:id="@+id/v5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/enter"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/na"
             android:textSize="50sp"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintStart_toEndOf="@+id/v100"
             app:layout_constraintTop_toBottomOf="@+id/v10" />
 
         <TextView
             android:id="@+id/v1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/na"
+            android:textSize="50sp"
+            app:layout_constraintStart_toEndOf="@+id/v50"
+            app:layout_constraintTop_toBottomOf="@+id/v5" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="120dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
-            android:text="@string/enter"
-            android:textSize="50sp"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
-            app:layout_constraintTop_toBottomOf="@+id/v5" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTotal"
+            app:srcCompat="@drawable/pic_10000yen" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/pic_1000yen" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:srcCompat="@drawable/pic_5000yen" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
