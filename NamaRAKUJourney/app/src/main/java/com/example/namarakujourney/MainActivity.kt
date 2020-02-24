@@ -1,59 +1,48 @@
 package com.example.namarakujourney
 
-import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
-import androidx.drawerlayout.widget.DrawerLayout
-import com.google.android.material.navigation.NavigationView
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
-import android.view.Menu
+import android.os.Bundle
+import android.view.View
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
-
-    private lateinit var appBarConfiguration: AppBarConfiguration
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val toolbar: Toolbar = findViewById(R.id.toolbar)
-        setSupportActionBar(toolbar)
-/*
-        val fab: FloatingActionButton = findViewById(R.id.fab)
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
 
- */
-        val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
-        val navView: NavigationView = findViewById(R.id.nav_view)
-        val navController = findNavController(R.id.nav_host_fragment)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        appBarConfiguration = AppBarConfiguration(
-            setOf(
-                R.id.nav_home, R.id.nav_conversation, R.id.nav_calculator,
-                R.id.nav_spot_search
-            ), drawerLayout
-        )
-        setupActionBarWithNavController(navController, appBarConfiguration)
-        navView.setupWithNavController(navController)
-    }
+        // ボタンの取得
+        val btnIntent_calc = findViewById<Button>(R.id.BTN_CALC)
+        val btnIntent_conv = findViewById<Button>(R.id.BTN_CONV)
+        val btnIntent_spot = findViewById<Button>(R.id.BTN_SPOT)
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.main, menu)
-        return true
-    }
 
-    override fun onSupportNavigateUp(): Boolean {
-        val navController = findNavController(R.id.nav_host_fragment)
-        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+        // ボタンにリスナを登録
+        btnIntent_calc.setOnClickListener (object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                // Intent<Class>のオブジェクト生成
+                val intent = Intent(this@MainActivity, SubActivity_calc::class.java)
+                // オブジェクトから画面を起動
+                startActivity(intent)
+            }
+        })
+        btnIntent_conv.setOnClickListener (object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                // Intent<Class>のオブジェクト生成
+                val intent = Intent(this@MainActivity, SubActivity_conv::class.java)
+                // オブジェクトから画面を起動
+                startActivity(intent)
+            }
+        })
+        btnIntent_spot.setOnClickListener (object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                // Intent<Class>のオブジェクト生成
+                val intent = Intent(this@MainActivity, SubActivity_spot::class.java)
+                // オブジェクトから画面を起動
+                startActivity(intent)
+            }
+        })
+
     }
 }
