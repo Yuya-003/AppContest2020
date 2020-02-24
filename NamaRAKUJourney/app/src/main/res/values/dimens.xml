@@ -9,4 +9,5 @@
 
     // 余白設定
     <dimen name="home_button_space">70dp</dimen>
+    <dimen name="conv_button_space">50dp</dimen>
 </resources>

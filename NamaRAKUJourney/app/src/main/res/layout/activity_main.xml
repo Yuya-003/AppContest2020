@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.074" />
 
     <Button
-        android:id="@+id/BTN_CALC"
+        android:id="@+id/BUTTON_CALC"
         android:layout_width="@dimen/main_button_Xaxis"
         android:layout_height="@dimen/main_button_Yaxis"
         android:layout_marginStart="110dp"
@@ -27,27 +27,27 @@
         android:layout_marginBottom="@dimen/home_button_space"
         android:text="@string/button_calc_jp"
         android:textSize="@dimen/main_button_char_size"
-        app:layout_constraintBottom_toTopOf="@+id/BTN_CONV"
+        app:layout_constraintBottom_toTopOf="@+id/BUTTON_CONV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/BTN_CONV"
+        android:id="@+id/BUTTON_CONV"
         android:layout_width="@dimen/main_button_Xaxis"
         android:layout_height="@dimen/main_button_Yaxis"
         android:layout_marginStart="110dp"
         android:layout_marginEnd="111dp"
-        android:layout_marginBottom="@dimen/home_button_space"
+        android:layout_marginBottom="70dp"
         android:text="@string/button_conv_jp"
         android:textSize="@dimen/main_button_char_size"
-        app:layout_constraintBottom_toTopOf="@+id/BTN_SPOT"
+        app:layout_constraintBottom_toTopOf="@+id/BUTTON_SPOT"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/BTN_SPOT"
+        android:id="@+id/BUTTON_SPOT"
         android:layout_width="@dimen/main_button_Xaxis"
         android:layout_height="@dimen/main_button_Yaxis"
         android:layout_marginStart="110dp"

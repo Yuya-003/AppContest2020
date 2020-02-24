@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import com.example.namarakujourney.SubActivity_calc
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,9 +15,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // ボタンの取得
-        val btnIntent_calc = findViewById<Button>(R.id.BTN_CALC)
-        val btnIntent_conv = findViewById<Button>(R.id.BTN_CONV)
-        val btnIntent_spot = findViewById<Button>(R.id.BTN_SPOT)
+        val btnIntent_calc = findViewById<Button>(R.id.BUTTON_CALC)
+        val btnIntent_conv = findViewById<Button>(R.id.BUTTON_CONV)
+        val btnIntent_spot = findViewById<Button>(R.id.BUTTON_SPOT)
 
 
         // ボタンにリスナを登録
