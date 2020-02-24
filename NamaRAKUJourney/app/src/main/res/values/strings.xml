@@ -4,6 +4,7 @@
     <string name="button_calc_jp">会計機能</string>
     <string name="button_conv_jp">会話機能</string>
     <string name="button_spot_jp">スポット機能</string>
+
     <string name="Input_value">金額を入力してください</string>
     <string name="yen"      >yen 円</string>
     <string name="enter"    >入力してください</string>
@@ -19,5 +20,16 @@
     <string name="ju"       >+　十</string>
     <string name="go"       >+　五</string>
     <string name="ichi"     >+　一</string>
+
+    <string name="select_genre">会話のジャンルを選択してください</string>
+    <string name="button_gree">挨拶</string>
+    <string name="button_dire">道案内</string>
+    <string name="button_meal">食事</string>
+    <string name="button_trans">交通手段</string>
+    <string name="button_hotel">ホテル</string>
+    <string name="button_events">イベント</string>
+    <string name="button_pay">会計</string>
+    <string name="button_other">その他</string>
+
 
 </resources>
