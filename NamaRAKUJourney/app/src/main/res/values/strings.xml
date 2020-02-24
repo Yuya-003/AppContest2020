@@ -7,6 +7,7 @@
     <string name="Input_value">金額を入力してください</string>
     <string name="yen"      >yen 円</string>
     <string name="enter"    >入力してください</string>
+    <string name="na"       >N/A</string>
     <string name="typing"   >入力中...</string>
     <string name="typed_yen">入力金額</string>
     <string name="ichiman"  >+　万</string>
