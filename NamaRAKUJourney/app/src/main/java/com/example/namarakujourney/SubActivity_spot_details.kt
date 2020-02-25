@@ -1,14 +1,14 @@
 package com.example.namarakujourney
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+
 
 class SubActivity_spot_details : AppCompatActivity(), OnMapReadyCallback {
 
@@ -32,6 +32,7 @@ class SubActivity_spot_details : AppCompatActivity(), OnMapReadyCallback {
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
      */
+
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
 
@@ -39,5 +40,10 @@ class SubActivity_spot_details : AppCompatActivity(), OnMapReadyCallback {
         val sydney = LatLng(-34.0, 151.0)
         mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+
+        val cUpdate = CameraUpdateFactory.newLatLngZoom(
+            LatLng(43.06, 141.34), 12f
+        )
+        mMap.moveCamera(cUpdate)
     }
 }
