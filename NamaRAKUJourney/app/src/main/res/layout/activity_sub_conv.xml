@@ -37,7 +37,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="@dimen/conv_button_space"
         android:text="@string/button_trans"
-        android:textSize="40sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/BUTTON_MEAL"
         app:layout_constraintEnd_toEndOf="@+id/BUTTON_DIRE"
         app:layout_constraintStart_toEndOf="@+id/BUTTON_MEAL"

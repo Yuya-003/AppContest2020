@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         val btnIntent_conv = findViewById<Button>(R.id.BUTTON_CONV)
         val btnIntent_spot = findViewById<Button>(R.id.BUTTON_SPOT)
 
-
         // ボタンにリスナを登録
         btnIntent_calc.setOnClickListener (object : View.OnClickListener {
             override fun onClick(v: View?) {

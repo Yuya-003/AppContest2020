@@ -3,7 +3,7 @@
     // ボタン等サイズ設定
     <dimen name="main_button_Xaxis">500dp</dimen>
     <dimen name="main_button_Yaxis">300dp</dimen>
-    <dimen name="main_button_char_size">100sp</dimen>
+    <dimen name="main_button_char_size">50sp</dimen>
     <dimen name="main_lang_button_Xaxis">220dp</dimen>
     <dimen name="main_lang_button_Yaxis">100dp</dimen>
 

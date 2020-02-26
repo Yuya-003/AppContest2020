@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">NAMARAKUJourney</string>
-    <string name="app_name_jp">なまらく(そ)じゃーにー</string>
-    <string name="button_calc_jp">会計機能</string>
-    <string name="button_conv_jp">会話機能</string>
-    <string name="button_spot_jp">スポット機能</string>
+    <string name="app_name_jp">なまらくじゃーにー</string>
+    <string name="button_calc_jp">会計機能\nAccounting</string>
+    <string name="button_conv_jp">会話機能\nconversation</string>
+    <string name="button_spot_jp">スポット機能\nspot</string>
 
-    <string name="Input_value">金額を入力してください</string>
+    <string name="Input_value">金額を入力してください  how much cash</string>
     <string name="yen">yen 円</string>
     <string name="enter">入力してください</string>
     <string name="na">N/A</string>
@@ -21,15 +21,15 @@
     <string name="go">+　五</string>
     <string name="ichi">+　一</string>
 
-    <string name="select_genre">会話のジャンルを選択してください</string>
-    <string name="button_gree">挨拶</string>
-    <string name="button_dire">道案内</string>
-    <string name="button_meal">食事</string>
-    <string name="button_trans">交通手段</string>
-    <string name="button_hotel">ホテル</string>
-    <string name="button_events">イベント</string>
-    <string name="button_pay">会計</string>
-    <string name="button_other">その他</string>
+    <string name="select_genre">会話のジャンルを選択してください\nPlease select a conversation genre</string>
+    <string name="button_gree">挨拶\nGreeting</string>
+    <string name="button_dire">道案内\nDirections</string>
+    <string name="button_meal">食事\nMeal</string>
+    <string name="button_trans">交通手段\nTransportation</string>
+    <string name="button_hotel">ホテル\nHotel</string>
+    <string name="button_events">イベント\nEvent</string>
+    <string name="button_pay">会計\nAccounting</string>
+    <string name="button_other">その他\nOther</string>
     <string name="select_content">内容を選んでください</string>
     <string name="content_of_kaiwa_syokuji">I have wheat allergies.\n私は小麦アレルギーがあります。\n\nDoes this contain wheat?\nこれには小麦粉が含まれていますか？</string>
     <string name="content_of_kaiwa_eat_button">How much is this?\nこれはいくらですか？</string>
